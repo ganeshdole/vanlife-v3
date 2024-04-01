@@ -14,7 +14,7 @@ function Footer(){
     return(
 
         <div className="w-full max-w-[1240px] mx-auto px-8">
-			<div className="flex flex-col md:flex-row justify-between gap-10 md:gap-16 pt-16 md:pt-28 pb-10">
+			<div className="flex flex-col md:flex-row justify-between gap-10 md:gap-16 pt-16">
 					<div className="text-primaryText">
 						<h3 className="text-2xl font-bold uppercase">#Vanlife</h3>
 						<ul className="flex flex-col gap-4 mt-7">

@@ -12,6 +12,7 @@ function Layout(){
             <main className="mt-16 ">
                 <Outlet />
             </main>
+            <hr  className="m-4 text-gray-500" />
             <footer className="mt-auto">
                 <Foooter />
             </footer>

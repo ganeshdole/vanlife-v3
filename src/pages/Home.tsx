@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import {Button} from "../components/ui/button";
-
+import Stats from "@/components/Stats";
 function Home(){
     return (
+      <>
         <div className="
             min-h-screen 
             flex 
@@ -32,6 +33,8 @@ function Home(){
           </Link>
           </Button>
         </div>
+         <Stats/>
+         </>
     )
 }
 
