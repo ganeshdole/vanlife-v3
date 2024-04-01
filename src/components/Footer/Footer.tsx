@@ -12,6 +12,7 @@ import {
   
 function Footer(){
     return(
+
         <div className="w-full max-w-[1240px] mx-auto px-8">
 			<div className="flex flex-col md:flex-row justify-between gap-10 md:gap-16 pt-16 md:pt-28 pb-10">
 					<div className="text-primaryText">
@@ -126,8 +127,9 @@ function Footer(){
 						</form>
 					</div>
 			</div>
+           
         </div>
-      
+         
     )
 }
 

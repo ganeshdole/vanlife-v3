@@ -14,14 +14,15 @@ function Home(){
             flex-col	 
             bg-center 
             px-8 
-            bg-[url('./src/assets/images/hero.png')]
+
+            bg-[url('./src/assets/images/hero.jpg')]
         "
         >
-          <h1 className="text-5xl font-extrabold text-white mb-5">
+          <h1 className="text-5xl font-extrabold text-white mb-5 drop-shadow-md">
             You got the <span>travel plans,</span> we got the{" "}
             <span>travel vans.</span>
           </h1>
-          <p className="text-xl font-semibold text-white mb-5">
+          <p className="text-xl font-semibold text-white mb-5 drop-shadow-md">
             Add adventure to your life by joining the #vanlife movement. Rent
             the perfect van to make your perfect road trip.
           </p>
