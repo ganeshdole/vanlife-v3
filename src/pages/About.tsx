@@ -6,7 +6,7 @@ const About: React.FC = () => {
         <div className='flex flex-col items-center'>
             <div className="
         flex    
-        bg-[url('./src/assets/images/about.jpg')]    
+        bg-about    
         h-[400px]
         w-full
         bg-cover 
