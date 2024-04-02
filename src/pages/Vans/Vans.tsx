@@ -9,7 +9,7 @@ import Box from '@mui/material/Box';
 
 
 const Vans: React.FC = () => {
-   const [vans,setVans] = useState<null | { description: string | null; hostId: number | null; id: number; imageUrl: string | null; name: string | null; price: number | null; type: string | null; }[]>(null);
+   const [vans,setVans] = useState<null | { star:number|null; hostId: number | null; id: number; imageUrl: string | null; name: string | null; price: number | null; type: string | null; }[]>(null);
     useEffect(() => {
         const fetchData = async () => {
             let { data, error } = await supabase.from('vans').select('*');
@@ -33,9 +33,9 @@ const Vans: React.FC = () => {
     }
 
     const vanCards = vans.map((van) => {
-        const { id, imageUrl, name, description, price } = van;
+        const { id, imageUrl, name, price ,star} = van;
         return (
-            <Vancard key={id} id={id} imageUrl={imageUrl} name={name} description={description} price={price} />
+            <Vancard key={id} id={id} imageUrl={imageUrl} name={name} price={price} star={star}/>
         );
     });
 
