@@ -7,6 +7,7 @@ import Vans from "./pages/Vans/Vans";
 import NotFoundPage from "./components/NotPageFound/NotFoundPage";
 import SignUp from "./pages/SignUp";
 import VanDetails from "./pages/Vans/VanDetails";
+import Host from "./pages/Host/Host";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Route element={<Layout/>}>
         <Route index element={<Home/>}/>
         <Route path="about" element={<About/>}/>
+        <Route path="host" element={<Host/>}/>
         <Route path="vans" element={<Vans/>}/> 
         <Route path="vans/:id" element={<VanDetails/>}/>
         <Route path="*" element={<NotFoundPage/>}/>

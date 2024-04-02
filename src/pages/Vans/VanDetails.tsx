@@ -26,10 +26,7 @@ const VanDetails: React.FC = () => {
     }
 
     return (
-        <div className='px-8 min-h-full'>
-
-
-        </div>
+        <div></div>
     );
 };
 

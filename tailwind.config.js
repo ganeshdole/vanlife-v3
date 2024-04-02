@@ -20,6 +20,7 @@ module.exports = {
       backgroundImage: {
         'hero': "url('./assets/images/hero.jpg')",
         'about': "url('./assets/images/about.jpg')",
+        'host': "url('./assets/images/host.jpg')",
       },
       colors: {
         border: "hsl(var(--border))",
