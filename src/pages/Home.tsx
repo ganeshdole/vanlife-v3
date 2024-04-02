@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import {Button} from "../components/ui/button";
 import Stats from "@/components/Stats";
+import HomeImage from "@/assets/images/hero.jpg";
 function Home(){
+
+  console.log(HomeImage);
     return (
       <>
         <div className="
@@ -15,8 +18,7 @@ function Home(){
             flex-col	 
             bg-center 
             px-8 
-
-            bg-[url('./src/assets/images/hero.jpg')]
+            bg-hero
         "
         >
           <h1 className="text-5xl font-extrabold text-white mb-5 drop-shadow-md">

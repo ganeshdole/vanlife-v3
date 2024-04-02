@@ -18,7 +18,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('./src/assets/images/hero-pattern.png')",
+        'hero': "url('./src/assets/images/hero.jpg')",
       },
       colors: {
         border: "hsl(var(--border))",

@@ -3,8 +3,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Vancard from "@/components/VanCard/Vancard";
 import * as React from 'react';
-import CircularProgress from '@mui/material/CircularProgress';
-import Box from '@mui/material/Box';
+import Loading from '@/components/Loading/Loading';
 
 
 
@@ -24,11 +23,7 @@ const Vans: React.FC = () => {
 
     if (!vans) {
         return (
-            <div className="min-h-screen flex justify-center items-center">
-                <Box sx={{ display: 'flex' }}>
-                    <CircularProgress />
-                </Box>
-            </div>
+            <Loading/>
     );
     }
 

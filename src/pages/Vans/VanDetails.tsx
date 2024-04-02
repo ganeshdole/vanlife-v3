@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import supabase from '@/Config/supabaseClient';
 import { useParams } from 'react-router-dom';
+import Loading from '@/components/Loading/Loading';
 
 const VanDetails: React.FC = () => {
     const { id } = useParams();
@@ -18,7 +19,12 @@ const VanDetails: React.FC = () => {
         fetchData();
     }, []);
 
-    console.log(van);
+    if (!van) {
+        return(
+                <Loading/>
+        )
+    }
+
     return (
         <div className='px-8 min-h-full'>
 
