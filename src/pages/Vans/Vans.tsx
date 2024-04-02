@@ -37,7 +37,7 @@ const Vans: React.FC = () => {
     return (
         <div className="px-8">
             <h2 className="text-2xl font-bold">Explore our van options</h2>
-            <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))]">
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))]">
                 {vanCards}
             </div>
         </div>
