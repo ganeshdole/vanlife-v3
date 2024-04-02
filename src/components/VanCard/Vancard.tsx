@@ -19,7 +19,7 @@ export default function Vancard( {id,imageUrl,name,description,price} : {
         <p className="mt-2 text-sm text-gray-600">{description}</p>
         <div className="flex-1"></div>
         <div className="mt-4 flex items-baseline justify-between">
-          <h1 className="text-xl font-bold text-gray-700">${price}</h1>
+          <h1 className="text-xl font-bold text-gray-700">${price}/night</h1>
           <button className="rounded bg-gray-800 px-3 py-2 text-xs font-bold uppercase text-white">Book Now</button>
         </div>
       </div>

@@ -27,7 +27,7 @@ export default Navbar;
 
 function Menu() {
   return (
-    <div className="nav-NavLinks  px-5">
+    <div className="nav-NavLinks  px-5 hidden sm:block">
       <ul className="flex gap-10">
         <li>
           <NavLink to="/host" className="font-semibold nav-NavLink" >Host</NavLink>

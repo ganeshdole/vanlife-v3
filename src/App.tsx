@@ -4,7 +4,8 @@ import Layout from "./components/Layouts/Layout";
 import About from "./pages/About";
 import LogInPage from "./pages/Login";
 import Vans from "./pages/Vans/Vans";
-import NotFoundPage from "./pages/NotFoundPage";
+import NotFoundPage from "./components/NotPageFound/NotFoundPage";
+import SignUp from "./pages/SignUp";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="*" element={<NotFoundPage/>}/>
       </Route>
       <Route path="login" element={<LogInPage/>}/>
+      <Route path="signup" element={<SignUp/>}/>
     </Routes>
   )
 }
