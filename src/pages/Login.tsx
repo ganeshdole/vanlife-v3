@@ -10,16 +10,14 @@ import {
 
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button" 
 import { Link } from 'react-router-dom';
 
 const LogInPage: React.FC = () => {
    return(
     <div className='flex min-h-screen bg-orange-50'>
-        <div className='hidden md:inline-block md:flex-col w-full object-cover'>
-            <img src="./src/assets/images/login.jpg" alt="Login page image" className='object-cover w-full h-full scale-x-[-1] object-right' />
-        </div>
         <div className='flex w-full justify-center items-center'>
+        <Link to="/" className='absolute top-4 left-4  font-medium text-lg'>&larr; <span className='hover:underline'>Home Page</span></Link>
             <Card className='w-[400px] border-none bg-inherit'>
                 <div className='flex flex-col justify-center'>
                     <CardHeader>
@@ -42,6 +40,10 @@ const LogInPage: React.FC = () => {
                     </CardFooter>
                 </div>
             </Card>
+        </div>
+        <div className='hidden md:inline-block md:flex-col w-full object-cover'>
+       
+            <img src="./src/assets/images/login.jpg" alt="Login page image" className='object-cover w-full h-full scale-x-[-1] object-right' />
         </div>
     </div>
    )
