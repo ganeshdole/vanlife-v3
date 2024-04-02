@@ -23,7 +23,7 @@ const SignUp: React.FC = () => {
        <img src={LoginPageImg} alt="Login page image" className='object-cover w-full h-full scale-x-[-1] object-right ' />
         </div>
         <div className='flex w-full justify-center items-center'>
-        
+            <Link to="/" className='absolute md:hidden top-4 left-4  font-medium text-lg z-10'>&larr; <span className='hover:underline'>Home Page</span></Link>
             <Card className='w-[400px] border-none bg-inherit'>
                 <div className='flex flex-col justify-center'>
                     <CardHeader>
