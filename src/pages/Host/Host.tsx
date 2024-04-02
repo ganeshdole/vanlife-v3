@@ -9,7 +9,7 @@ import CampervanRentalSteps from '@/components/CampervanRentalSteps/CampervanRen
 const Host: React.FC = () => {
     return (
         <section className='p-8'>
-            <div className='flex flex-col justify-center items-center  lg:grid grid-cols-10 px-8'>
+            <div className='flex flex-col justify-center items-center  lg:grid grid-cols-10 md:px-8'>
                 <div className='
                 row-span-full
                 col-span-6 

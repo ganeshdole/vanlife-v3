@@ -12,7 +12,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Button } from "@/components/ui/button" 
-
+import LoginPageImg from '@/assets/images/login.jpg';
 
 const SignUp: React.FC = () => {
 
@@ -20,7 +20,7 @@ const SignUp: React.FC = () => {
         <div className='flex min-h-screen bg-orange-50'>
         <div className='hidden md:inline-block md:flex-col w-full object-cover'>
         <Link to="/" className='absolute top-4 left-4  font-medium text-lg z-10'>&larr; <span className='hover:underline'>Home Page</span></Link>
-       <img src="./src/assets/images/login.jpg" alt="Login page image" className='object-cover w-full h-full scale-x-[-1] object-right ' />
+       <img src={LoginPageImg} alt="Login page image" className='object-cover w-full h-full scale-x-[-1] object-right ' />
         </div>
         <div className='flex w-full justify-center items-center'>
         
