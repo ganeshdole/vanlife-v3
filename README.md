@@ -2,7 +2,6 @@
 
 [#VANLIFE](https://vanlife.ganeshdole.me/) is a campervan rental website developed using React.
 
-This project was inspired by a solo endeavor completed during Scrimba's Frontend Developer Career Path.
 
 ## Features
 
