@@ -6,7 +6,7 @@ import Copyright from "../Copyright/Copyright";
 function Layout(){
     return (
         <div className="max-w-screen-2xl flex flex-col mx-auto min-h-screen bg-orange-50">
-            <header className="flex h-16 items-center fixed justify-between px-8 w-full top-0 left-0 bg-orange-50 z-10">
+            <header className="flex h-16 items-center fixed justify-between px-8 w-full top-0 left-0 bg-orange-50 z-10 font-serif">
                 <Navbar/>
             </header>
             <main className="mt-16 ">
