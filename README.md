@@ -1,7 +1,3 @@
-Certainly! Here's an improved version of your README:
-
----
-
 # #VANLIFE
 
 [#VANLIFE](https://vanlife.ganeshdole.me/) is a campervan rental website developed using React.
@@ -43,6 +39,3 @@ This project is licensed under the MIT License.
 - **GitHub**: [ganeshdole](https://github.com/ganeshdole)
 - **Live Website**: [vanlife.ganeshdole.me](https://vanlife.ganeshdole.me/)
 
----
-
-This version maintains clarity, improves readability, and provides additional details about the project and its technologies.
