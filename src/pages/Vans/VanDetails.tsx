@@ -93,11 +93,11 @@ const VanDetails: React.FC = () => {
                             <MdSoupKitchen className='text-4xl'/>
                             <p className='font-medium'> Kitchen </p>
                         </div>
-                        <div className='flex flex-col items-center max-w-auto' >
+                        <div className='hidden md:flex flex-col items-center max-w-auto' >
                             <GiShower className='text-4xl'/>
                             <p className='font-medium'> Exterior shower </p>
                         </div>
-                        <div className='flex flex-col items-center max-w-auto' >
+                        <div className='hidden md:flex flex-col items-center max-w-auto' >
                             <PiTentFill className='text-4xl'/>
                             <p className='font-medium'> Rooftop tent </p>
                         </div>
