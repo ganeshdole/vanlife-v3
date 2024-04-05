@@ -47,5 +47,3 @@ function Menu() {
     </div>
   );
 }
-
-/*
