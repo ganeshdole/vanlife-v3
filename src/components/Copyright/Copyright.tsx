@@ -7,7 +7,7 @@ const Copyright: React.FC = () => {
         <div>
             <p className="px-0 bg-gray-950
           text-center text-primaryText py-5 text-gray-200">
-          &copy; {currentYear} Your Company. All rights reserved.
+          &copy; {currentYear} VanLife. All rights reserved.
               Created by <a href="https://ganeshdole.me/" className="text-white font-bold ">Ganesh Dole</a> with ❤️
             </p>
         </div>
